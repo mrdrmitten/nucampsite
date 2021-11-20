@@ -26,7 +26,7 @@ function About(props) {
                     </Media>
                 </>
             ) 
-        } <div></div>
+        } return <div></div>
     }
 
     return (
