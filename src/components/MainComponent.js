@@ -71,7 +71,7 @@ class Main extends Component {
             <div>
                 <Header />
                 <TransitionGroup>
-                    <CSSTransition key={this.props.location.key} classNames="page" timeout={300}>
+                    <CSSTransition key={this.props.location.key} classNames="page" timeout={100}>
                         <Switch>
                             <Route path='/home' component={HomePage} />
                             <Route exact path ='/directory' render={() => <Directory campsites={this.props.campsites}
